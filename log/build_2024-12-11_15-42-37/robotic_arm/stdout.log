@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robotic_arm/robotic_arm.egg-info
+writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/robotic_arm/robotic_arm.egg-info/entry_points.txt
+writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sfr2024/assessment/team3_project/build/robotic_arm/build
+creating /home/sfr2024/assessment/team3_project/build/robotic_arm/build/lib
+creating /home/sfr2024/assessment/team3_project/build/robotic_arm/build/lib/robotic_arm
+copying robotic_arm/__init__.py -> /home/sfr2024/assessment/team3_project/build/robotic_arm/build/lib/robotic_arm
+copying robotic_arm/robotic_arm_node.py -> /home/sfr2024/assessment/team3_project/build/robotic_arm/build/lib/robotic_arm
+running install
+running install_lib
+creating /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+copying /home/sfr2024/assessment/team3_project/build/robotic_arm/build/lib/robotic_arm/__init__.py -> /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+copying /home/sfr2024/assessment/team3_project/build/robotic_arm/build/lib/robotic_arm/robotic_arm_node.py -> /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm
+byte-compiling /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm/robotic_arm_node.py to robotic_arm_node.cpython-310.pyc
+running install_data
+creating /home/sfr2024/assessment/team3_project/install/robotic_arm/share/ament_index
+creating /home/sfr2024/assessment/team3_project/install/robotic_arm/share/ament_index/resource_index
+creating /home/sfr2024/assessment/team3_project/install/robotic_arm/share/ament_index/resource_index/packages
+copying resource/robotic_arm -> /home/sfr2024/assessment/team3_project/install/robotic_arm/share/ament_index/resource_index/packages
+copying package.xml -> /home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm
+running install_egg_info
+Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robotic_arm_node script to /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/robotic_arm
+writing list of installed files to '/home/sfr2024/assessment/team3_project/build/robotic_arm/install.log'

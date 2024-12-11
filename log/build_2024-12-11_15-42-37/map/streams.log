@@ -1,0 +1,37 @@
+[2.919s] Invoking command in '/home/sfr2024/assessment/team3_project/src/map': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/sfr2024/assessment/team3_project/build/map/build install --record /home/sfr2024/assessment/team3_project/build/map/install.log --single-version-externally-managed install_data
+[3.555s] running egg_info
+[3.556s] creating ../../build/map/map.egg-info
+[3.557s] writing ../../build/map/map.egg-info/PKG-INFO
+[3.558s] writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt
+[3.558s] writing entry points to ../../build/map/map.egg-info/entry_points.txt
+[3.558s] writing requirements to ../../build/map/map.egg-info/requires.txt
+[3.558s] writing top-level names to ../../build/map/map.egg-info/top_level.txt
+[3.559s] writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[3.561s] reading manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[3.563s] writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[3.563s] running build
+[3.563s] running build_py
+[3.564s] creating /home/sfr2024/assessment/team3_project/build/map/build
+[3.564s] creating /home/sfr2024/assessment/team3_project/build/map/build/lib
+[3.564s] creating /home/sfr2024/assessment/team3_project/build/map/build/lib/map
+[3.564s] copying map/__init__.py -> /home/sfr2024/assessment/team3_project/build/map/build/lib/map
+[3.565s] copying map/map_node.py -> /home/sfr2024/assessment/team3_project/build/map/build/lib/map
+[3.565s] running install
+[3.565s] running install_lib
+[3.566s] creating /home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map
+[3.566s] copying /home/sfr2024/assessment/team3_project/build/map/build/lib/map/__init__.py -> /home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map
+[3.566s] copying /home/sfr2024/assessment/team3_project/build/map/build/lib/map/map_node.py -> /home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map
+[3.567s] byte-compiling /home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map/__init__.py to __init__.cpython-310.pyc
+[3.567s] byte-compiling /home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map/map_node.py to map_node.cpython-310.pyc
+[3.569s] running install_data
+[3.569s] creating /home/sfr2024/assessment/team3_project/install/map/share/ament_index
+[3.570s] creating /home/sfr2024/assessment/team3_project/install/map/share/ament_index/resource_index
+[3.570s] creating /home/sfr2024/assessment/team3_project/install/map/share/ament_index/resource_index/packages
+[3.570s] copying resource/map -> /home/sfr2024/assessment/team3_project/install/map/share/ament_index/resource_index/packages
+[3.570s] copying package.xml -> /home/sfr2024/assessment/team3_project/install/map/share/map
+[3.571s] running install_egg_info
+[3.574s] Copying ../../build/map/map.egg-info to /home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map-0.0.0-py3.10.egg-info
+[3.575s] running install_scripts
+[3.615s] Installing map_node script to /home/sfr2024/assessment/team3_project/install/map/lib/map
+[3.616s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/map/install.log'
+[3.694s] Invoked command in '/home/sfr2024/assessment/team3_project/src/map' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/sfr2024/assessment/team3_project/build/map/build install --record /home/sfr2024/assessment/team3_project/build/map/install.log --single-version-externally-managed install_data

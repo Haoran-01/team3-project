@@ -1,0 +1,428 @@
+[0.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76c93b1211b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76c93b269930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76c93b269930>>, mixin_verb=('build',))
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sfr2024/assessment/team3_project'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera' with type 'ros.ament_python' and name 'camera'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu' with type 'ros.ament_python' and name 'imu'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar' with type 'ros.ament_python' and name 'lidar'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/map) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map' with type 'ros.ament_python' and name 'map'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'ros.ament_python' and name 'navigation'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/nuc) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nuc' with type 'ros.ament_python' and name 'nuc'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotic_arm) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotic_arm' with type 'ros.ament_python' and name 'robotic_arm'
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/sfr2024/assessment/team3_project/install
+[0.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/sfr2024/ros2_tutorial_workspace/install
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/humble
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sfr2024/assessment/team3_project/build/camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sfr2024/assessment/team3_project/install/camera', 'merge_install': False, 'path': '/home/sfr2024/assessment/team3_project/src/camera', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sfr2024/assessment/team3_project/build/imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sfr2024/assessment/team3_project/install/imu', 'merge_install': False, 'path': '/home/sfr2024/assessment/team3_project/src/imu', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sfr2024/assessment/team3_project/build/lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sfr2024/assessment/team3_project/install/lidar', 'merge_install': False, 'path': '/home/sfr2024/assessment/team3_project/src/lidar', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sfr2024/assessment/team3_project/build/map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sfr2024/assessment/team3_project/install/map', 'merge_install': False, 'path': '/home/sfr2024/assessment/team3_project/src/map', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sfr2024/assessment/team3_project/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sfr2024/assessment/team3_project/install/navigation', 'merge_install': False, 'path': '/home/sfr2024/assessment/team3_project/src/navigation', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'nuc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'nuc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sfr2024/assessment/team3_project/build/nuc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sfr2024/assessment/team3_project/install/nuc', 'merge_install': False, 'path': '/home/sfr2024/assessment/team3_project/src/nuc', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotic_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sfr2024/assessment/team3_project/build/robotic_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sfr2024/assessment/team3_project/install/robotic_arm', 'merge_install': False, 'path': '/home/sfr2024/assessment/team3_project/src/robotic_arm', 'symlink_install': False, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.317s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sfr2024/assessment/team3_project/src/camera' with build type 'ament_python'
+[0.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'ament_prefix_path')
+[0.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/camera/share/camera/hook/ament_prefix_path.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/camera/share/camera/hook/ament_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/camera/share/camera/hook/ament_prefix_path.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sfr2024/assessment/team3_project/src/imu' with build type 'ament_python'
+[0.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu', 'ament_prefix_path')
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/imu/share/imu/hook/ament_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/imu/share/imu/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/imu/share/imu/hook/ament_prefix_path.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.342s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sfr2024/assessment/team3_project/src/lidar' with build type 'ament_python'
+[0.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar', 'ament_prefix_path')
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/hook/ament_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/hook/ament_prefix_path.dsv'
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/hook/ament_prefix_path.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sfr2024/assessment/team3_project/src/map' with build type 'ament_python'
+[0.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('map', 'ament_prefix_path')
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/map/share/map/hook/ament_prefix_path.ps1'
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/map/share/map/hook/ament_prefix_path.dsv'
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/map/share/map/hook/ament_prefix_path.sh'
+[0.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.383s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sfr2024/assessment/team3_project/src/navigation' with build type 'ament_python'
+[0.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'ament_prefix_path')
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/hook/ament_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/hook/ament_prefix_path.dsv'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/hook/ament_prefix_path.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sfr2024/assessment/team3_project/src/nuc' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('nuc', 'ament_prefix_path')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/hook/ament_prefix_path.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/hook/ament_prefix_path.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/hook/ament_prefix_path.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sfr2024/assessment/team3_project/src/robotic_arm' with build type 'ament_python'
+[0.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm', 'ament_prefix_path')
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/hook/ament_prefix_path.ps1'
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/hook/ament_prefix_path.dsv'
+[0.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/hook/ament_prefix_path.sh'
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.776s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sfr2024/assessment/team3_project/src/camera'
+[0.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sfr2024/assessment/team3_project/src/imu'
+[1.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.382s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sfr2024/assessment/team3_project/src/lidar'
+[1.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.630s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sfr2024/assessment/team3_project/src/map'
+[1.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.906s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sfr2024/assessment/team3_project/src/navigation'
+[1.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.184s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sfr2024/assessment/team3_project/src/nuc'
+[2.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.467s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sfr2024/assessment/team3_project/src/robotic_arm'
+[2.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sfr2024/assessment/team3_project/src/imu': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/sfr2024/assessment/team3_project/build/imu/build install --record /home/sfr2024/assessment/team3_project/build/imu/install.log --single-version-externally-managed install_data
+[3.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sfr2024/assessment/team3_project/src/lidar': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar build --build-base /home/sfr2024/assessment/team3_project/build/lidar/build install --record /home/sfr2024/assessment/team3_project/build/lidar/install.log --single-version-externally-managed install_data
+[3.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sfr2024/assessment/team3_project/src/nuc': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/nuc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nuc build --build-base /home/sfr2024/assessment/team3_project/build/nuc/build install --record /home/sfr2024/assessment/team3_project/build/nuc/install.log --single-version-externally-managed install_data
+[3.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sfr2024/assessment/team3_project/src/robotic_arm': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/sfr2024/assessment/team3_project/build/robotic_arm/build install --record /home/sfr2024/assessment/team3_project/build/robotic_arm/install.log --single-version-externally-managed install_data
+[3.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sfr2024/assessment/team3_project/src/map': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/sfr2024/assessment/team3_project/build/map/build install --record /home/sfr2024/assessment/team3_project/build/map/install.log --single-version-externally-managed install_data
+[3.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sfr2024/assessment/team3_project/src/camera': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/sfr2024/assessment/team3_project/build/camera/build install --record /home/sfr2024/assessment/team3_project/build/camera/install.log --single-version-externally-managed install_data
+[3.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sfr2024/assessment/team3_project/src/navigation': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/sfr2024/assessment/team3_project/build/navigation/build install --record /home/sfr2024/assessment/team3_project/build/navigation/install.log --single-version-externally-managed install_data
+[3.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sfr2024/assessment/team3_project/src/lidar' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar build --build-base /home/sfr2024/assessment/team3_project/build/lidar/build install --record /home/sfr2024/assessment/team3_project/build/lidar/install.log --single-version-externally-managed install_data
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/lidar' for CMake module files
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/lidar' for CMake config files
+[3.949s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/lidar/lib'
+[3.950s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/lidar/bin'
+[3.950s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/lidar/lib/pkgconfig/lidar.pc'
+[3.951s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/lidar/lib/python3.10/site-packages'
+[3.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar', 'pythonpath')
+[3.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/hook/pythonpath.ps1'
+[3.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/hook/pythonpath.dsv'
+[3.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/hook/pythonpath.sh'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/lidar/bin'
+[3.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar)
+[3.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/package.ps1'
+[3.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/package.dsv'
+[3.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/package.sh'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/package.bash'
+[3.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/lidar/share/lidar/package.zsh'
+[3.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sfr2024/assessment/team3_project/install/lidar/share/colcon-core/packages/lidar)
+[4.123s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/imu' for CMake module files
+[4.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sfr2024/assessment/team3_project/src/imu' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/sfr2024/assessment/team3_project/build/imu/build install --record /home/sfr2024/assessment/team3_project/build/imu/install.log --single-version-externally-managed install_data
+[4.128s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/imu' for CMake config files
+[4.129s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/imu/lib'
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/imu/bin'
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/imu/lib/pkgconfig/imu.pc'
+[4.131s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/imu/lib/python3.10/site-packages'
+[4.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu', 'pythonpath')
+[4.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/imu/share/imu/hook/pythonpath.ps1'
+[4.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/imu/share/imu/hook/pythonpath.dsv'
+[4.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/imu/share/imu/hook/pythonpath.sh'
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/imu/bin'
+[4.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu)
+[4.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/imu/share/imu/package.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sfr2024/assessment/team3_project/install/imu/share/imu/package.dsv'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/imu/share/imu/package.sh'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/imu/share/imu/package.bash'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/imu/share/imu/package.zsh'
+[4.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sfr2024/assessment/team3_project/install/imu/share/colcon-core/packages/imu)
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/navigation' for CMake module files
+[4.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sfr2024/assessment/team3_project/src/navigation' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/sfr2024/assessment/team3_project/build/navigation/build install --record /home/sfr2024/assessment/team3_project/build/navigation/install.log --single-version-externally-managed install_data
+[4.485s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/navigation' for CMake config files
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/navigation/lib'
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/navigation/bin'
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/navigation/lib/pkgconfig/navigation.pc'
+[4.486s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/navigation/lib/python3.10/site-packages'
+[4.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'pythonpath')
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/hook/pythonpath.ps1'
+[4.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/hook/pythonpath.dsv'
+[4.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/hook/pythonpath.sh'
+[4.490s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/navigation/bin'
+[4.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[4.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/package.ps1'
+[4.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/package.dsv'
+[4.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/package.sh'
+[4.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/package.bash'
+[4.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/navigation/share/navigation/package.zsh'
+[4.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sfr2024/assessment/team3_project/install/navigation/share/colcon-core/packages/navigation)
+[4.668s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/nuc' for CMake module files
+[4.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sfr2024/assessment/team3_project/src/nuc' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/nuc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nuc build --build-base /home/sfr2024/assessment/team3_project/build/nuc/build install --record /home/sfr2024/assessment/team3_project/build/nuc/install.log --single-version-externally-managed install_data
+[4.670s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/nuc' for CMake config files
+[4.671s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/nuc/lib'
+[4.671s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/nuc/bin'
+[4.672s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/nuc/lib/pkgconfig/nuc.pc'
+[4.672s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages'
+[4.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('nuc', 'pythonpath')
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/hook/pythonpath.ps1'
+[4.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/hook/pythonpath.dsv'
+[4.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/hook/pythonpath.sh'
+[4.675s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/nuc/bin'
+[4.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nuc)
+[4.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/package.ps1'
+[4.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/package.dsv'
+[4.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/package.sh'
+[4.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/package.bash'
+[4.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/nuc/share/nuc/package.zsh'
+[4.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sfr2024/assessment/team3_project/install/nuc/share/colcon-core/packages/nuc)
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/camera' for CMake module files
+[4.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sfr2024/assessment/team3_project/src/camera' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/sfr2024/assessment/team3_project/build/camera/build install --record /home/sfr2024/assessment/team3_project/build/camera/install.log --single-version-externally-managed install_data
+[4.757s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/camera' for CMake config files
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/camera/lib'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/camera/bin'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/camera/lib/pkgconfig/camera.pc'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/camera/lib/python3.10/site-packages'
+[4.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'pythonpath')
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/camera/share/camera/hook/pythonpath.ps1'
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/camera/share/camera/hook/pythonpath.dsv'
+[4.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/camera/share/camera/hook/pythonpath.sh'
+[4.760s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/camera/bin'
+[4.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera)
+[4.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/camera/share/camera/package.ps1'
+[4.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sfr2024/assessment/team3_project/install/camera/share/camera/package.dsv'
+[4.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/camera/share/camera/package.sh'
+[4.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/camera/share/camera/package.bash'
+[4.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/camera/share/camera/package.zsh'
+[4.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sfr2024/assessment/team3_project/install/camera/share/colcon-core/packages/camera)
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/robotic_arm' for CMake module files
+[4.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sfr2024/assessment/team3_project/src/robotic_arm' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/sfr2024/assessment/team3_project/build/robotic_arm/build install --record /home/sfr2024/assessment/team3_project/build/robotic_arm/install.log --single-version-externally-managed install_data
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/robotic_arm' for CMake config files
+[4.779s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/robotic_arm/lib'
+[4.779s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/robotic_arm/bin'
+[4.779s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/robotic_arm/lib/pkgconfig/robotic_arm.pc'
+[4.780s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages'
+[4.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_arm', 'pythonpath')
+[4.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/hook/pythonpath.ps1'
+[4.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/hook/pythonpath.dsv'
+[4.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/hook/pythonpath.sh'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/robotic_arm/bin'
+[4.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_arm)
+[4.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/package.ps1'
+[4.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/package.dsv'
+[4.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/package.sh'
+[4.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/package.bash'
+[4.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/robotic_arm/share/robotic_arm/package.zsh'
+[4.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sfr2024/assessment/team3_project/install/robotic_arm/share/colcon-core/packages/robotic_arm)
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/map' for CMake module files
+[4.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sfr2024/assessment/team3_project/src/map' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/sfr2024/assessment/team3_project/build/map/build install --record /home/sfr2024/assessment/team3_project/build/map/install.log --single-version-externally-managed install_data
+[4.939s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/map' for CMake config files
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/map/lib'
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/map/bin'
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/map/lib/pkgconfig/map.pc'
+[4.941s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages'
+[4.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('map', 'pythonpath')
+[4.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/map/share/map/hook/pythonpath.ps1'
+[4.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sfr2024/assessment/team3_project/install/map/share/map/hook/pythonpath.dsv'
+[4.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sfr2024/assessment/team3_project/install/map/share/map/hook/pythonpath.sh'
+[4.946s] Level 1:colcon.colcon_core.environment:checking '/home/sfr2024/assessment/team3_project/install/map/bin'
+[4.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map)
+[4.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/map/share/map/package.ps1'
+[4.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sfr2024/assessment/team3_project/install/map/share/map/package.dsv'
+[4.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/map/share/map/package.sh'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/map/share/map/package.bash'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/sfr2024/assessment/team3_project/install/map/share/map/package.zsh'
+[4.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sfr2024/assessment/team3_project/install/map/share/colcon-core/packages/map)
+[4.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.957s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.973s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.007s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sfr2024/assessment/team3_project/install/local_setup.ps1'
+[5.010s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sfr2024/assessment/team3_project/install/_local_setup_util_ps1.py'
+[5.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sfr2024/assessment/team3_project/install/setup.ps1'
+[5.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sfr2024/assessment/team3_project/install/local_setup.sh'
+[5.026s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sfr2024/assessment/team3_project/install/_local_setup_util_sh.py'
+[5.028s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sfr2024/assessment/team3_project/install/setup.sh'
+[5.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sfr2024/assessment/team3_project/install/local_setup.bash'
+[5.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sfr2024/assessment/team3_project/install/setup.bash'
+[5.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sfr2024/assessment/team3_project/install/local_setup.zsh'
+[5.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sfr2024/assessment/team3_project/install/setup.zsh'

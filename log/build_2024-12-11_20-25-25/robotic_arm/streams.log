@@ -1,0 +1,21 @@
+[3.429s] Invoking command in '/home/sfr2024/assessment/team3_project/src/robotic_arm': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/sfr2024/assessment/team3_project/build/robotic_arm/build install --record /home/sfr2024/assessment/team3_project/build/robotic_arm/install.log --single-version-externally-managed install_data
+[4.174s] running egg_info
+[4.179s] writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+[4.179s] writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+[4.180s] writing entry points to ../../build/robotic_arm/robotic_arm.egg-info/entry_points.txt
+[4.181s] writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+[4.181s] writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+[4.189s] reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[4.193s] writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[4.193s] running build
+[4.194s] running build_py
+[4.195s] running install
+[4.202s] running install_lib
+[4.206s] running install_data
+[4.206s] running install_egg_info
+[4.215s] removing '/home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[4.217s] Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info
+[4.220s] running install_scripts
+[4.295s] Installing robotic_arm_node script to /home/sfr2024/assessment/team3_project/install/robotic_arm/lib/robotic_arm
+[4.295s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/robotic_arm/install.log'
+[4.366s] Invoked command in '/home/sfr2024/assessment/team3_project/src/robotic_arm' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/sfr2024/assessment/team3_project/build/robotic_arm/build install --record /home/sfr2024/assessment/team3_project/build/robotic_arm/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[2.870s] Invoking command in '/home/sfr2024/assessment/team3_project/src/lidar': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar build --build-base /home/sfr2024/assessment/team3_project/build/lidar/build install --record /home/sfr2024/assessment/team3_project/build/lidar/install.log --single-version-externally-managed install_data
+[3.566s] running egg_info
+[3.566s] writing ../../build/lidar/lidar.egg-info/PKG-INFO
+[3.566s] writing dependency_links to ../../build/lidar/lidar.egg-info/dependency_links.txt
+[3.571s] writing entry points to ../../build/lidar/lidar.egg-info/entry_points.txt
+[3.571s] writing requirements to ../../build/lidar/lidar.egg-info/requires.txt
+[3.571s] writing top-level names to ../../build/lidar/lidar.egg-info/top_level.txt
+[3.574s] reading manifest file '../../build/lidar/lidar.egg-info/SOURCES.txt'
+[3.579s] writing manifest file '../../build/lidar/lidar.egg-info/SOURCES.txt'
+[3.580s] running build
+[3.580s] running build_py
+[3.580s] running install
+[3.580s] running install_lib
+[3.583s] running install_data
+[3.583s] running install_egg_info
+[3.591s] removing '/home/sfr2024/assessment/team3_project/install/lidar/lib/python3.10/site-packages/lidar-0.0.0-py3.10.egg-info' (and everything under it)
+[3.595s] Copying ../../build/lidar/lidar.egg-info to /home/sfr2024/assessment/team3_project/install/lidar/lib/python3.10/site-packages/lidar-0.0.0-py3.10.egg-info
+[3.595s] running install_scripts
+[3.668s] Installing lidar_node script to /home/sfr2024/assessment/team3_project/install/lidar/lib/lidar
+[3.670s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/lidar/install.log'
+[3.727s] Invoked command in '/home/sfr2024/assessment/team3_project/src/lidar' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar build --build-base /home/sfr2024/assessment/team3_project/build/lidar/build install --record /home/sfr2024/assessment/team3_project/build/lidar/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/nuc/nuc.egg-info
+writing ../../build/nuc/nuc.egg-info/PKG-INFO
+writing dependency_links to ../../build/nuc/nuc.egg-info/dependency_links.txt
+writing entry points to ../../build/nuc/nuc.egg-info/entry_points.txt
+writing requirements to ../../build/nuc/nuc.egg-info/requires.txt
+writing top-level names to ../../build/nuc/nuc.egg-info/top_level.txt
+writing manifest file '../../build/nuc/nuc.egg-info/SOURCES.txt'
+reading manifest file '../../build/nuc/nuc.egg-info/SOURCES.txt'
+writing manifest file '../../build/nuc/nuc.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sfr2024/assessment/team3_project/build/nuc/build
+creating /home/sfr2024/assessment/team3_project/build/nuc/build/lib
+creating /home/sfr2024/assessment/team3_project/build/nuc/build/lib/nuc
+copying nuc/__init__.py -> /home/sfr2024/assessment/team3_project/build/nuc/build/lib/nuc
+copying nuc/nuc_node.py -> /home/sfr2024/assessment/team3_project/build/nuc/build/lib/nuc
+running install
+running install_lib
+creating /home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc
+copying /home/sfr2024/assessment/team3_project/build/nuc/build/lib/nuc/__init__.py -> /home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc
+copying /home/sfr2024/assessment/team3_project/build/nuc/build/lib/nuc/nuc_node.py -> /home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc
+byte-compiling /home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc/nuc_node.py to nuc_node.cpython-310.pyc
+running install_data
+creating /home/sfr2024/assessment/team3_project/install/nuc/share/ament_index
+creating /home/sfr2024/assessment/team3_project/install/nuc/share/ament_index/resource_index
+creating /home/sfr2024/assessment/team3_project/install/nuc/share/ament_index/resource_index/packages
+copying resource/nuc -> /home/sfr2024/assessment/team3_project/install/nuc/share/ament_index/resource_index/packages
+copying package.xml -> /home/sfr2024/assessment/team3_project/install/nuc/share/nuc
+running install_egg_info
+Copying ../../build/nuc/nuc.egg-info to /home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nuc_node script to /home/sfr2024/assessment/team3_project/install/nuc/lib/nuc
+writing list of installed files to '/home/sfr2024/assessment/team3_project/build/nuc/install.log'

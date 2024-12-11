@@ -1,0 +1,21 @@
+[4.106s] Invoking command in '/home/sfr2024/assessment/team3_project/src/controller_server': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/controller_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller_server build --build-base /home/sfr2024/assessment/team3_project/build/controller_server/build install --record /home/sfr2024/assessment/team3_project/build/controller_server/install.log --single-version-externally-managed install_data
+[4.864s] running egg_info
+[4.868s] writing ../../build/controller_server/controller_server.egg-info/PKG-INFO
+[4.869s] writing dependency_links to ../../build/controller_server/controller_server.egg-info/dependency_links.txt
+[4.870s] writing entry points to ../../build/controller_server/controller_server.egg-info/entry_points.txt
+[4.870s] writing requirements to ../../build/controller_server/controller_server.egg-info/requires.txt
+[4.871s] writing top-level names to ../../build/controller_server/controller_server.egg-info/top_level.txt
+[4.878s] reading manifest file '../../build/controller_server/controller_server.egg-info/SOURCES.txt'
+[4.881s] writing manifest file '../../build/controller_server/controller_server.egg-info/SOURCES.txt'
+[4.882s] running build
+[4.882s] running build_py
+[4.883s] running install
+[4.884s] running install_lib
+[4.896s] running install_data
+[4.896s] running install_egg_info
+[4.902s] removing '/home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server-0.0.0-py3.10.egg-info' (and everything under it)
+[4.904s] Copying ../../build/controller_server/controller_server.egg-info to /home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server-0.0.0-py3.10.egg-info
+[4.907s] running install_scripts
+[4.984s] Installing controller_server_node script to /home/sfr2024/assessment/team3_project/install/controller_server/lib/controller_server
+[4.984s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/controller_server/install.log'
+[5.052s] Invoked command in '/home/sfr2024/assessment/team3_project/src/controller_server' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/controller_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller_server build --build-base /home/sfr2024/assessment/team3_project/build/controller_server/build install --record /home/sfr2024/assessment/team3_project/build/controller_server/install.log --single-version-externally-managed install_data

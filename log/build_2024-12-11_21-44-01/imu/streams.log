@@ -1,0 +1,21 @@
+[3.752s] Invoking command in '/home/sfr2024/assessment/team3_project/src/imu': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/sfr2024/assessment/team3_project/build/imu/build install --record /home/sfr2024/assessment/team3_project/build/imu/install.log --single-version-externally-managed install_data
+[4.328s] running egg_info
+[4.328s] writing ../../build/imu/imu.egg-info/PKG-INFO
+[4.329s] writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt
+[4.330s] writing entry points to ../../build/imu/imu.egg-info/entry_points.txt
+[4.331s] writing requirements to ../../build/imu/imu.egg-info/requires.txt
+[4.331s] writing top-level names to ../../build/imu/imu.egg-info/top_level.txt
+[4.335s] reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[4.338s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[4.339s] running build
+[4.339s] running build_py
+[4.340s] running install
+[4.341s] running install_lib
+[4.344s] running install_data
+[4.346s] running install_egg_info
+[4.352s] removing '/home/sfr2024/assessment/team3_project/install/imu/lib/python3.10/site-packages/imu-0.0.0-py3.10.egg-info' (and everything under it)
+[4.355s] Copying ../../build/imu/imu.egg-info to /home/sfr2024/assessment/team3_project/install/imu/lib/python3.10/site-packages/imu-0.0.0-py3.10.egg-info
+[4.358s] running install_scripts
+[4.417s] Installing imu_node script to /home/sfr2024/assessment/team3_project/install/imu/lib/imu
+[4.419s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/imu/install.log'
+[4.478s] Invoked command in '/home/sfr2024/assessment/team3_project/src/imu' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/sfr2024/assessment/team3_project/build/imu/build install --record /home/sfr2024/assessment/team3_project/build/imu/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[4.430s] Invoking command in '/home/sfr2024/assessment/team3_project/src/controller_server': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/controller_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller_server build --build-base /home/sfr2024/assessment/team3_project/build/controller_server/build install --record /home/sfr2024/assessment/team3_project/build/controller_server/install.log --single-version-externally-managed install_data
+[5.454s] running egg_info
+[5.456s] creating ../../build/controller_server/controller_server.egg-info
+[5.457s] writing ../../build/controller_server/controller_server.egg-info/PKG-INFO
+[5.457s] writing dependency_links to ../../build/controller_server/controller_server.egg-info/dependency_links.txt
+[5.458s] writing entry points to ../../build/controller_server/controller_server.egg-info/entry_points.txt
+[5.458s] writing requirements to ../../build/controller_server/controller_server.egg-info/requires.txt
+[5.458s] writing top-level names to ../../build/controller_server/controller_server.egg-info/top_level.txt
+[5.458s] writing manifest file '../../build/controller_server/controller_server.egg-info/SOURCES.txt'
+[5.464s] reading manifest file '../../build/controller_server/controller_server.egg-info/SOURCES.txt'
+[5.466s] writing manifest file '../../build/controller_server/controller_server.egg-info/SOURCES.txt'
+[5.466s] running build
+[5.466s] running build_py
+[5.467s] creating /home/sfr2024/assessment/team3_project/build/controller_server/build
+[5.467s] creating /home/sfr2024/assessment/team3_project/build/controller_server/build/lib
+[5.468s] creating /home/sfr2024/assessment/team3_project/build/controller_server/build/lib/controller_server
+[5.469s] copying controller_server/__init__.py -> /home/sfr2024/assessment/team3_project/build/controller_server/build/lib/controller_server
+[5.469s] copying controller_server/controller_server_node.py -> /home/sfr2024/assessment/team3_project/build/controller_server/build/lib/controller_server
+[5.471s] running install
+[5.471s] running install_lib
+[5.472s] creating /home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server
+[5.472s] copying /home/sfr2024/assessment/team3_project/build/controller_server/build/lib/controller_server/__init__.py -> /home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server
+[5.472s] copying /home/sfr2024/assessment/team3_project/build/controller_server/build/lib/controller_server/controller_server_node.py -> /home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server
+[5.476s] byte-compiling /home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server/__init__.py to __init__.cpython-310.pyc
+[5.476s] byte-compiling /home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server/controller_server_node.py to controller_server_node.cpython-310.pyc
+[5.477s] running install_data
+[5.477s] creating /home/sfr2024/assessment/team3_project/install/controller_server/share/ament_index
+[5.477s] creating /home/sfr2024/assessment/team3_project/install/controller_server/share/ament_index/resource_index
+[5.478s] creating /home/sfr2024/assessment/team3_project/install/controller_server/share/ament_index/resource_index/packages
+[5.478s] copying resource/controller_server -> /home/sfr2024/assessment/team3_project/install/controller_server/share/ament_index/resource_index/packages
+[5.481s] copying package.xml -> /home/sfr2024/assessment/team3_project/install/controller_server/share/controller_server
+[5.481s] running install_egg_info
+[5.488s] Copying ../../build/controller_server/controller_server.egg-info to /home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages/controller_server-0.0.0-py3.10.egg-info
+[5.491s] running install_scripts
+[5.579s] Installing controller_server_node script to /home/sfr2024/assessment/team3_project/install/controller_server/lib/controller_server
+[5.580s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/controller_server/install.log'
+[5.658s] Invoked command in '/home/sfr2024/assessment/team3_project/src/controller_server' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/controller_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/controller_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/controller_server build --build-base /home/sfr2024/assessment/team3_project/build/controller_server/build install --record /home/sfr2024/assessment/team3_project/build/controller_server/install.log --single-version-externally-managed install_data

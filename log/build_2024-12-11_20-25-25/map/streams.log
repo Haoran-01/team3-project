@@ -1,0 +1,21 @@
+[3.503s] Invoking command in '/home/sfr2024/assessment/team3_project/src/map': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/sfr2024/assessment/team3_project/build/map/build install --record /home/sfr2024/assessment/team3_project/build/map/install.log --single-version-externally-managed install_data
+[4.455s] running egg_info
+[4.457s] writing ../../build/map/map.egg-info/PKG-INFO
+[4.458s] writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt
+[4.458s] writing entry points to ../../build/map/map.egg-info/entry_points.txt
+[4.459s] writing requirements to ../../build/map/map.egg-info/requires.txt
+[4.460s] writing top-level names to ../../build/map/map.egg-info/top_level.txt
+[4.465s] reading manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[4.468s] writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[4.469s] running build
+[4.469s] running build_py
+[4.469s] running install
+[4.470s] running install_lib
+[4.474s] running install_data
+[4.474s] running install_egg_info
+[4.487s] removing '/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map-0.0.0-py3.10.egg-info' (and everything under it)
+[4.489s] Copying ../../build/map/map.egg-info to /home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages/map-0.0.0-py3.10.egg-info
+[4.490s] running install_scripts
+[4.525s] Installing map_node script to /home/sfr2024/assessment/team3_project/install/map/lib/map
+[4.526s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/map/install.log'
+[4.578s] Invoked command in '/home/sfr2024/assessment/team3_project/src/map' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/sfr2024/assessment/team3_project/build/map/build install --record /home/sfr2024/assessment/team3_project/build/map/install.log --single-version-externally-managed install_data
