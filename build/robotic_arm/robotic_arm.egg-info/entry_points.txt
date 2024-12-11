@@ -1,0 +1,3 @@
+[console_scripts]
+robotic_arm_node = robotic_arm.robotic_arm_node:main
+

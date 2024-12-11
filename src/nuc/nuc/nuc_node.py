@@ -17,7 +17,7 @@ class NUCNode(Node):
         self.declare_parameter('period', 0.5)
         timer_period: float = self.get_parameter('period').get_parameter_value().double_value
 
-        self.cmd_vel_publisher = self.create_publisher(
+        self.task_goal_publisher = self.create_publisher(
             msg_type=PoseStamped,
             topic="/task/goal",
             qos_profile=1)
@@ -30,12 +30,6 @@ class NUCNode(Node):
         self.cmd_vel_publisher = self.create_publisher(
             msg_type=Twist,
             topic="/navigation/cmd_vel",
-            qos_profile=1)
-
-        self.imu_data_subscriber = self.create_subscription(
-            msg_type=Imu,
-            topic='/imu/data',
-            callback=self.imu_data_callback,
             qos_profile=1)
 
         self.lidar_data_subscriber = self.create_subscription(
@@ -67,9 +61,6 @@ class NUCNode(Node):
         self.incremental_id: int = 0
 
     def timer_callback(self):
-        pass
-
-    def imu_data_callback(self, msg: AmazingQuote):
         pass
 
     def lidar_data_callback(self, msg: AmazingQuote):

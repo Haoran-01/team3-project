@@ -1,8 +1,9 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import PointCloud2
+from sensor_msgs.msg import PointCloud2, Image, Imu
 from geometry_msgs.msg import PoseStamped, Twist
 from nav_msgs.msg import Odometry, Path
+from std_msgs.msg import MultiArrayLayout
 
 
 class NavigationNode(Node):
@@ -26,13 +27,7 @@ class NavigationNode(Node):
 
         self.nav_cmd_vel_publisher = self.create_publisher(
             msg_type=Twist,
-            topic="/navigation/cmd_vel",
-            qos_profile=1)
-
-        self.scan_data_subscriber = self.create_subscription(
-            msg_type=PointCloud2,
-            topic='/scan',
-            callback=self.scan_data_callback,
+            topic="/cmd_vel",
             qos_profile=1)
 
         self.task_goal_subscriber = self.create_subscription(
@@ -41,6 +36,19 @@ class NavigationNode(Node):
             callback=self.task_goal_callback,
             qos_profile=1)
 
+        self.sensor_data_subscriber = self.create_subscription(
+            msg_type=MultiArrayLayout,
+            topic='/sensor/data',
+            callback=self.sensor_data_callback,
+            qos_profile=1)
+
+        self.imu_data_subscriber = self.create_subscription(
+            msg_type=Imu,
+            topic='/imu/data',
+            callback=self.imu_data_callback,
+            qos_profile=1)
+
+
 
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.incremental_id: int = 0
@@ -48,10 +56,13 @@ class NavigationNode(Node):
     def timer_callback(self):
         pass
 
-    def scan_data_callback(self, msg: PointCloud2):
+    def task_goal_callback(self, msg: PoseStamped):
         pass
 
-    def task_goal_callback(self, msg: PoseStamped):
+    def sensor_data_callback(self, msg: PoseStamped):
+        pass
+
+    def imu_data_callback(self, msg: PoseStamped):
         pass
 
 
