@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+nuc/__init__.py
+nuc/nuc_node.py
+nuc.egg-info/PKG-INFO
+nuc.egg-info/SOURCES.txt
+nuc.egg-info/dependency_links.txt
+nuc.egg-info/entry_points.txt
+nuc.egg-info/requires.txt
+nuc.egg-info/top_level.txt
+nuc.egg-info/zip-safe
+resource/nuc

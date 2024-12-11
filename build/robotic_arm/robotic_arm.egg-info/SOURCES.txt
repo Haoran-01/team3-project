@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/robotic_arm
+robotic_arm/__init__.py
+robotic_arm/robotic_arm_node.py
+robotic_arm.egg-info/PKG-INFO
+robotic_arm.egg-info/SOURCES.txt
+robotic_arm.egg-info/dependency_links.txt
+robotic_arm.egg-info/entry_points.txt
+robotic_arm.egg-info/requires.txt
+robotic_arm.egg-info/top_level.txt
+robotic_arm.egg-info/zip-safe
