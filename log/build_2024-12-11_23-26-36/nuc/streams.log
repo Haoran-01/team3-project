@@ -1,0 +1,21 @@
+[3.584s] Invoking command in '/home/sfr2024/assessment/team3_project/src/nuc': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/nuc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nuc build --build-base /home/sfr2024/assessment/team3_project/build/nuc/build install --record /home/sfr2024/assessment/team3_project/build/nuc/install.log --single-version-externally-managed install_data
+[4.235s] running egg_info
+[4.237s] writing ../../build/nuc/nuc.egg-info/PKG-INFO
+[4.237s] writing dependency_links to ../../build/nuc/nuc.egg-info/dependency_links.txt
+[4.237s] writing entry points to ../../build/nuc/nuc.egg-info/entry_points.txt
+[4.240s] writing requirements to ../../build/nuc/nuc.egg-info/requires.txt
+[4.243s] writing top-level names to ../../build/nuc/nuc.egg-info/top_level.txt
+[4.244s] reading manifest file '../../build/nuc/nuc.egg-info/SOURCES.txt'
+[4.247s] writing manifest file '../../build/nuc/nuc.egg-info/SOURCES.txt'
+[4.248s] running build
+[4.248s] running build_py
+[4.248s] running install
+[4.248s] running install_lib
+[4.250s] running install_data
+[4.251s] running install_egg_info
+[4.254s] removing '/home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc-0.0.0-py3.10.egg-info' (and everything under it)
+[4.254s] Copying ../../build/nuc/nuc.egg-info to /home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages/nuc-0.0.0-py3.10.egg-info
+[4.256s] running install_scripts
+[4.381s] Installing nuc_node script to /home/sfr2024/assessment/team3_project/install/nuc/lib/nuc
+[4.385s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/nuc/install.log'
+[4.532s] Invoked command in '/home/sfr2024/assessment/team3_project/src/nuc' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/nuc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/nuc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nuc build --build-base /home/sfr2024/assessment/team3_project/build/nuc/build install --record /home/sfr2024/assessment/team3_project/build/nuc/install.log --single-version-externally-managed install_data

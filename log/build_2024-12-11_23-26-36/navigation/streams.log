@@ -1,0 +1,21 @@
+[4.484s] Invoking command in '/home/sfr2024/assessment/team3_project/src/navigation': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/sfr2024/assessment/team3_project/build/navigation/build install --record /home/sfr2024/assessment/team3_project/build/navigation/install.log --single-version-externally-managed install_data
+[5.546s] running egg_info
+[5.548s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[5.549s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[5.550s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[5.553s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[5.553s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[5.558s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[5.561s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[5.562s] running build
+[5.562s] running build_py
+[5.562s] running install
+[5.564s] running install_lib
+[5.579s] running install_data
+[5.584s] running install_egg_info
+[5.585s] removing '/home/sfr2024/assessment/team3_project/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[5.589s] Copying ../../build/navigation/navigation.egg-info to /home/sfr2024/assessment/team3_project/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[5.593s] running install_scripts
+[5.674s] Installing navigation_node script to /home/sfr2024/assessment/team3_project/install/navigation/lib/navigation
+[5.676s] writing list of installed files to '/home/sfr2024/assessment/team3_project/build/navigation/install.log'
+[5.740s] Invoked command in '/home/sfr2024/assessment/team3_project/src/navigation' returned '0': PYTHONPATH=/home/sfr2024/assessment/team3_project/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sfr2024/assessment/team3_project/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/sfr2024/assessment/team3_project/build/navigation/build install --record /home/sfr2024/assessment/team3_project/build/navigation/install.log --single-version-externally-managed install_data
