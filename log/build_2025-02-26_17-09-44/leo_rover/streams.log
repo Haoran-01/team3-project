@@ -1,0 +1,21 @@
+[2.461s] Invoking command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/leo_rover': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/leo_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/leo_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/leo_rover build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/leo_rover/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/leo_rover/install.log --single-version-externally-managed install_data
+[3.011s] running egg_info
+[3.013s] writing ../../build/leo_rover/leo_rover.egg-info/PKG-INFO
+[3.014s] writing dependency_links to ../../build/leo_rover/leo_rover.egg-info/dependency_links.txt
+[3.014s] writing entry points to ../../build/leo_rover/leo_rover.egg-info/entry_points.txt
+[3.017s] writing requirements to ../../build/leo_rover/leo_rover.egg-info/requires.txt
+[3.018s] writing top-level names to ../../build/leo_rover/leo_rover.egg-info/top_level.txt
+[3.020s] reading manifest file '../../build/leo_rover/leo_rover.egg-info/SOURCES.txt'
+[3.022s] writing manifest file '../../build/leo_rover/leo_rover.egg-info/SOURCES.txt'
+[3.022s] running build
+[3.022s] running build_py
+[3.023s] running install
+[3.024s] running install_lib
+[3.027s] running install_data
+[3.028s] running install_egg_info
+[3.034s] removing '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/leo_rover/lib/python3.10/site-packages/leo_rover-0.0.0-py3.10.egg-info' (and everything under it)
+[3.037s] Copying ../../build/leo_rover/leo_rover.egg-info to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/leo_rover/lib/python3.10/site-packages/leo_rover-0.0.0-py3.10.egg-info
+[3.041s] running install_scripts
+[3.088s] Installing leo_rover_node script to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/leo_rover/lib/leo_rover
+[3.092s] writing list of installed files to '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/leo_rover/install.log'
+[3.173s] Invoked command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/leo_rover' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/leo_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/leo_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/leo_rover build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/leo_rover/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/leo_rover/install.log --single-version-externally-managed install_data

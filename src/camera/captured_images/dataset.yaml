@@ -1,0 +1,6 @@
+train: /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/camera/captured_images/color
+val: /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/camera/captured_images/color
+
+nc: 6  # 你有 11 个类别
+
+names: ["blue block", "yellow block", "green block", "purple block", "red block", "orange block"]

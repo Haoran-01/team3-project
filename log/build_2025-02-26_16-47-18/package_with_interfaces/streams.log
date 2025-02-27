@@ -1,0 +1,29 @@
+[3.152s] Invoking command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/package_with_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/robotic_arm:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/nuc:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/map:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/lidar:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/leo_rover:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/imu:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/data_integration:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/controller_server:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/package_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/package_with_interfaces
+[3.175s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.404s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.452s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.454s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.461s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.532s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.822s] Traceback (most recent call last):
+[3.822s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[3.823s]     from catkin_pkg.package import parse_package_string
+[3.823s] ModuleNotFoundError: No module named 'catkin_pkg'
+[3.823s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.823s]   
+[3.823s]   execute_process(/home/mscrobotics2425laptop14/miniconda3/envs/ros2/bin/python3
+[3.823s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.823s]   /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/package_with_interfaces/package.xml
+[3.824s]   /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/package_with_interfaces/ament_cmake_core/package.cmake)
+[3.824s]   returned error code 1
+[3.824s] Call Stack (most recent call first):
+[3.824s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.824s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[3.824s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[3.824s] 
+[3.824s] [0m
+[3.825s] -- Configuring incomplete, errors occurred!
+[3.825s] See also "/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/package_with_interfaces/CMakeFiles/CMakeOutput.log".
+[3.850s] Invoked command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/package_with_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/robotic_arm:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/nuc:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/map:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/lidar:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/leo_rover:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/imu:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/data_integration:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/controller_server:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/package_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/package_with_interfaces

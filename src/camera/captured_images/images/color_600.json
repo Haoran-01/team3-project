@@ -1,0 +1,47 @@
+{
+  "version": "2.5.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "green block",
+      "score": null,
+      "points": [
+        [
+          667.6470588235294,
+          309.5798319327731
+        ],
+        [
+          647.4789915966387,
+          346.5546218487395
+        ],
+        [
+          633.6134453781513,
+          486.0504201680672
+        ],
+        [
+          669.7478991596639,
+          494.87394957983196
+        ],
+        [
+          684.873949579832,
+          452.43697478991595
+        ],
+        [
+          706.7226890756302,
+          316.30252100840335
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "color_600.jpg",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280
+}

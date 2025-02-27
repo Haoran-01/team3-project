@@ -1,0 +1,23 @@
+[2.740s] Invoking command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/camera': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/camera/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/camera/install.log --single-version-externally-managed install_data
+[3.302s] running egg_info
+[3.303s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[3.304s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[3.304s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[3.304s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[3.305s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[3.311s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[3.313s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[3.313s] running build
+[3.314s] running build_py
+[3.314s] running install
+[3.315s] running install_lib
+[3.315s] byte-compiling /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera/lib/python3.10/site-packages/camera/__init__.py to __init__.cpython-310.pyc
+[3.315s] byte-compiling /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera/lib/python3.10/site-packages/camera/camera_node.py to camera_node.cpython-310.pyc
+[3.316s] running install_data
+[3.316s] running install_egg_info
+[3.320s] removing '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[3.321s] Copying ../../build/camera/camera.egg-info to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[3.323s] running install_scripts
+[3.373s] Installing camera_node script to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera/lib/camera
+[3.374s] writing list of installed files to '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/camera/install.log'
+[3.474s] Invoked command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/camera' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/camera/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/camera/install.log --single-version-externally-managed install_data

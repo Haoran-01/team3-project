@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/controller_server/controller_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/controller_server/controller_server.egg-info/dependency_links.txt
+writing entry points to ../../build/controller_server/controller_server.egg-info/entry_points.txt
+writing requirements to ../../build/controller_server/controller_server.egg-info/requires.txt
+writing top-level names to ../../build/controller_server/controller_server.egg-info/top_level.txt
+reading manifest file '../../build/controller_server/controller_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/controller_server/controller_server.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/controller_server/lib/python3.10/site-packages/controller_server/controller_server_node.py to controller_server_node.cpython-310.pyc
+byte-compiling /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/controller_server/lib/python3.10/site-packages/controller_server/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/controller_server/lib/python3.10/site-packages/controller_server-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/controller_server/controller_server.egg-info to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/controller_server/lib/python3.10/site-packages/controller_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller_server_node script to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/controller_server/lib/controller_server
+writing list of installed files to '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/controller_server/install.log'

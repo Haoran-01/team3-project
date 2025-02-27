@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/camera/captured_images/Annotations</folder>
+  <filename>color_166.jpg</filename>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <source>
+    <database>https://github.com/CVHub520/X-AnyLabeling</database>
+  </source>
+</annotation>

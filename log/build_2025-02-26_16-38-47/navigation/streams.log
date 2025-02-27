@@ -1,0 +1,23 @@
+[2.745s] Invoking command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/navigation': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/navigation/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/navigation/install.log --single-version-externally-managed install_data
+[3.270s] running egg_info
+[3.275s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[3.275s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[3.275s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[3.275s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[3.275s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[3.279s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[3.281s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[3.281s] running build
+[3.282s] running build_py
+[3.282s] running install
+[3.283s] running install_lib
+[3.285s] byte-compiling /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation/lib/python3.10/site-packages/navigation/navigation_node.py to navigation_node.cpython-310.pyc
+[3.287s] byte-compiling /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation/lib/python3.10/site-packages/navigation/__init__.py to __init__.cpython-310.pyc
+[3.294s] running install_data
+[3.295s] running install_egg_info
+[3.296s] removing '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[3.296s] Copying ../../build/navigation/navigation.egg-info to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[3.307s] running install_scripts
+[3.371s] Installing navigation_node script to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation/lib/navigation
+[3.372s] writing list of installed files to '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/navigation/install.log'
+[3.468s] Invoked command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/navigation' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/navigation/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/navigation/install.log --single-version-externally-managed install_data

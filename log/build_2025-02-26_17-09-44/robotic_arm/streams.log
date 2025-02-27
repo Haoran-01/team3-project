@@ -1,0 +1,21 @@
+[2.687s] Invoking command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/robotic_arm': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/robotic_arm/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/robotic_arm/install.log --single-version-externally-managed install_data
+[3.261s] running egg_info
+[3.266s] writing ../../build/robotic_arm/robotic_arm.egg-info/PKG-INFO
+[3.266s] writing dependency_links to ../../build/robotic_arm/robotic_arm.egg-info/dependency_links.txt
+[3.266s] writing entry points to ../../build/robotic_arm/robotic_arm.egg-info/entry_points.txt
+[3.267s] writing requirements to ../../build/robotic_arm/robotic_arm.egg-info/requires.txt
+[3.267s] writing top-level names to ../../build/robotic_arm/robotic_arm.egg-info/top_level.txt
+[3.277s] reading manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[3.277s] writing manifest file '../../build/robotic_arm/robotic_arm.egg-info/SOURCES.txt'
+[3.277s] running build
+[3.277s] running build_py
+[3.277s] running install
+[3.278s] running install_lib
+[3.278s] running install_data
+[3.278s] running install_egg_info
+[3.281s] removing '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[3.293s] Copying ../../build/robotic_arm/robotic_arm.egg-info to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/robotic_arm/lib/python3.10/site-packages/robotic_arm-0.0.0-py3.10.egg-info
+[3.293s] running install_scripts
+[3.338s] Installing robotic_arm_node script to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/robotic_arm/lib/robotic_arm
+[3.339s] writing list of installed files to '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/robotic_arm/install.log'
+[3.370s] Invoked command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/robotic_arm' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/robotic_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotic_arm build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/robotic_arm/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/robotic_arm/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[5.622s] Invoking command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/imu': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/imu/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/imu/install.log --single-version-externally-managed install_data
+[6.553s] running egg_info
+[6.555s] writing ../../build/imu/imu.egg-info/PKG-INFO
+[6.562s] writing dependency_links to ../../build/imu/imu.egg-info/dependency_links.txt
+[6.562s] writing entry points to ../../build/imu/imu.egg-info/entry_points.txt
+[6.562s] writing requirements to ../../build/imu/imu.egg-info/requires.txt
+[6.562s] writing top-level names to ../../build/imu/imu.egg-info/top_level.txt
+[6.566s] reading manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[6.566s] writing manifest file '../../build/imu/imu.egg-info/SOURCES.txt'
+[6.567s] running build
+[6.567s] running build_py
+[6.568s] running install
+[6.569s] running install_lib
+[6.579s] running install_data
+[6.579s] running install_egg_info
+[6.580s] removing '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/imu/lib/python3.10/site-packages/imu-0.0.0-py3.10.egg-info' (and everything under it)
+[6.580s] Copying ../../build/imu/imu.egg-info to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/imu/lib/python3.10/site-packages/imu-0.0.0-py3.10.egg-info
+[6.581s] running install_scripts
+[6.636s] Installing imu_node script to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/imu/lib/imu
+[6.637s] writing list of installed files to '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/imu/install.log'
+[6.701s] Invoked command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/imu' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/imu/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/imu/install.log --single-version-externally-managed install_data
