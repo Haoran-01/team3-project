@@ -1,0 +1,39 @@
+{
+  "version": "2.5.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "green bin",
+      "score": null,
+      "points": [
+        [
+          392.50000000000006,
+          85.0
+        ],
+        [
+          879.1666666666666,
+          86.66666666666667
+        ],
+        [
+          917.5,
+          603.3333333333334
+        ],
+        [
+          414.1666666666667,
+          630.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "color_350.jpg",
+  "imageData": null,
+  "imageHeight": 720,
+  "imageWidth": 1280
+}

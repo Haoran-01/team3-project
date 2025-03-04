@@ -1,0 +1,21 @@
+[2.273s] Invoking command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/map': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/map/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/map/install.log --single-version-externally-managed install_data
+[2.531s] running egg_info
+[2.532s] writing ../../build/map/map.egg-info/PKG-INFO
+[2.532s] writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt
+[2.533s] writing entry points to ../../build/map/map.egg-info/entry_points.txt
+[2.533s] writing requirements to ../../build/map/map.egg-info/requires.txt
+[2.533s] writing top-level names to ../../build/map/map.egg-info/top_level.txt
+[2.535s] reading manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[2.537s] writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[2.537s] running build
+[2.538s] running build_py
+[2.538s] running install
+[2.538s] running install_lib
+[2.541s] running install_data
+[2.541s] running install_egg_info
+[2.543s] removing '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/map/lib/python3.10/site-packages/map-0.0.0-py3.10.egg-info' (and everything under it)
+[2.543s] Copying ../../build/map/map.egg-info to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/map/lib/python3.10/site-packages/map-0.0.0-py3.10.egg-info
+[2.545s] running install_scripts
+[2.579s] Installing map_node script to /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/map/lib/map
+[2.580s] writing list of installed files to '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/map/install.log'
+[2.626s] Invoked command in '/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/src/map' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/install/map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/map build --build-base /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/map/build install --record /home/mscrobotics2425laptop14/Desktop/project/team3/team3-project/build/map/install.log --single-version-externally-managed install_data
