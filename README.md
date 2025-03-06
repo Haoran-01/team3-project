@@ -1,8 +1,18 @@
 # team3-project
 
 ## Clone this project
-```bash git clone https://github.com/Haoran-01/team3-project.git```
+```git clone https://github.com/Haoran-01/team3-project.git```
+```cd team3-project.git```
 
+## Create a new virtual environment
+```python3 -m venv team3-project```
+
+Before using the project each time, you need to activate the virtual environment using following code in the terminal
+```source venv/bin/activate```
+After activate the virtual environment you will see you terminal like: (team3-project) user@linux:~/your_project$
+
+## Install the dependencies
+```pip install -r requirements.txt```
 
 ## Run object detection
 - First connect the camera
