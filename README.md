@@ -2,6 +2,7 @@
 
 ## Clone this project
 ```git clone https://github.com/Haoran-01/team3-project.git```
+
 ```cd team3-project.git```
 
 ## Create a new virtual environment
@@ -13,6 +14,11 @@ After activate the virtual environment you will see you terminal like: (team3-pr
 
 ## Install the dependencies
 ```pip install -r requirements.txt```
+
+## Build you ROS2 workplace
+```colcon build```
+
+```source install/setup.bash```
 
 ## Run object detection
 - First connect the camera
