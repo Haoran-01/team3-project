@@ -3,7 +3,7 @@
 ## Clone this project
 ```git clone https://github.com/Haoran-01/team3-project.git```
 
-```cd team3-project.git```
+```cd team3-project```
 
 ## Create a new virtual environment
 ```python3 -m venv team3-project```
