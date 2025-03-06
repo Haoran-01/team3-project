@@ -153,11 +153,19 @@ class YOLOv8RealSenseNode(Node):
         6 - blue bin
         7 - purple bin
         8 - green bin
+        I will add more code to distinguish bins and blocks
         """"
 
         
         if Z < 0:
             return  # Depth ineffective. Skip.
+
+        # Setting the target type
+        if class_id < 6:
+            target_msg.type = "block"
+        else:
+            target_msg.type = "bin"
+        
 
         # Creating a TargetBlock Message
         target_msg = TargetBlock()
@@ -169,7 +177,8 @@ class YOLOv8RealSenseNode(Node):
         target_msg.position.pose.position.z = Z
 
         # Setting the target color
-        target_msg.color = self.model.names[class_id]
+        target_msg.color = self.model.names[class_id].split(" ")[0]
+        # target_msg.color = self.model.names[class_id]
 
         # Post a message
         self.pub_target_position.publish(target_msg)
