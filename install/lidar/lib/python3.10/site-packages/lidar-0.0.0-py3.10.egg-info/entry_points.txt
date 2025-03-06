@@ -1,3 +1,0 @@
-[console_scripts]
-lidar_node = lidar.lidar_node:main
-

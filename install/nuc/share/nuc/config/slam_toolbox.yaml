@@ -1,8 +1,0 @@
-slam_toolbox:
-  ros__parameters:
-    use_sim_time: false
-    map_file_name: ""
-    publish_map: true               # 确保启用地图发布
-    publish_tf: true                # 确保启用 TF 发布
-    tf_prefix: ""                   # 可以为 TF 添加前缀
-    mode: "mapping"                 # 设置为 "mapping" 或 "localization"

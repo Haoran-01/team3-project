@@ -1,6 +1,0 @@
-source;share/nuc/hook/pythonpath.ps1
-source;share/nuc/hook/pythonpath.dsv
-source;share/nuc/hook/pythonpath.sh
-source;share/nuc/hook/ament_prefix_path.ps1
-source;share/nuc/hook/ament_prefix_path.dsv
-source;share/nuc/hook/ament_prefix_path.sh

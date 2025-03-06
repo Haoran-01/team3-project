@@ -1,3 +1,0 @@
-[console_scripts]
-map_node = map.map_node:main
-

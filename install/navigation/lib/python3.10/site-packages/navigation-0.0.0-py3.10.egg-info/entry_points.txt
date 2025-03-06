@@ -1,3 +1,0 @@
-[console_scripts]
-navigation_node = navigation.navigation_node:main
-
