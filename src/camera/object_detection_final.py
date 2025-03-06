@@ -154,7 +154,7 @@ class YOLOv8RealSenseNode(Node):
         7 - purple bin
         8 - green bin
         I will add more code to distinguish bins and blocks
-        """"
+        """
 
         
         if Z < 0:
