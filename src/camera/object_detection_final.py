@@ -142,6 +142,20 @@ class YOLOv8RealSenseNode(Node):
 
     def publish_target_position(self, X, Y, Z, class_id):
         """ Publish target location & color, bound to a message at the same time """
+        
+        """class_id names:
+        0 - blue block
+        1 - yellow block
+        2 - green block
+        3 - purple block
+        4 - red block
+        5 - orange block
+        6 - blue bin
+        7 - purple bin
+        8 - green bin
+        """"
+
+        
         if Z < 0:
             return  # Depth ineffective. Skip.
 
