@@ -9,7 +9,7 @@
 ```python3 -m venv team3-project```
 
 Before using the project each time, you need to activate the virtual environment using following code in the terminal
-```source venv/bin/activate```
+```source team3-project/bin/activate```
 After activate the virtual environment you will see you terminal like: (team3-project) user@linux:~/your_project$
 
 ## Install the dependencies
