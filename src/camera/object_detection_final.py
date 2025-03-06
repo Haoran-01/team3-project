@@ -25,7 +25,7 @@ class YOLOv8RealSenseNode(Node):
         self.bridge = CvBridge()
 
         # Loading YOLOv8 Models
-        self.model = YOLO("best_copy.pt")
+        self.model = YOLO("best.pt")
 
         # Store recent RGB & Depth images
         self.color_image = None
@@ -160,11 +160,7 @@ class YOLOv8RealSenseNode(Node):
         if Z < 0:
             return  # Depth ineffective. Skip.
 
-        # Setting the target type
-        if class_id < 6:
-            target_msg.type = "block"
-        else:
-            target_msg.type = "bin"
+        
         
 
         # Creating a TargetBlock Message
@@ -175,6 +171,12 @@ class YOLOv8RealSenseNode(Node):
         target_msg.position.pose.position.x = X
         target_msg.position.pose.position.y = Y
         target_msg.position.pose.position.z = Z
+
+        # Setting the target type
+        if class_id < 6:
+            target_msg.type = "block"
+        else:
+            target_msg.type = "bin"
 
         # Setting the target color
         target_msg.color = self.model.names[class_id].split(" ")[0]
