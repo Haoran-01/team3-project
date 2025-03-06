@@ -1,3 +1,0 @@
-[console_scripts]
-leo_rover_node = leo_rover.leo_rover_node:main
-

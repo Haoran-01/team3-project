@@ -1,3 +1,0 @@
-[console_scripts]
-nuc_node = nuc.nuc_node:main
-

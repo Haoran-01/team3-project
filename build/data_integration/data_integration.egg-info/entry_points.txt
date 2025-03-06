@@ -1,3 +1,0 @@
-[console_scripts]
-data_integration_node = data_integration.data_integration_node:main
-

@@ -1,3 +1,0 @@
-[console_scripts]
-controller_server_node = controller_server.controller_server_node:main
-
