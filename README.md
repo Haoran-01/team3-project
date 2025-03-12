@@ -94,7 +94,6 @@ pip freeze > requirements.txt
 If you wish to contribute to this project, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m "Add feature-name"`).
-4. Push to your branch (`git push origin feature-name`).
-5. Open a pull request.
+2. Commit your changes (`git commit -m "Add feature-name"`).
+3. Push to your branch (`git push origin feature-name`).
+4. Open a pull request.
