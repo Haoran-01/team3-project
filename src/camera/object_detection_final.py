@@ -25,7 +25,7 @@ class YOLOv8RealSenseNode(Node):
         self.bridge = CvBridge()
 
         # Loading YOLOv8 Models
-        self.model = YOLO("best.pt")
+        self.model = YOLO("best_new.pt")
 
         # Store recent RGB & Depth images
         self.color_image = None
