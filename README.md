@@ -37,6 +37,10 @@ Before running the code, install all required dependencies:
 
 ```bash
 pip install -r requirements.txt
+pip install ultralytics
+pip install empy==3.3.4
+pip install lark
+pip install catkin_pkg
 ```
 
 ## Build you ROS2 workplace
